@@ -8,6 +8,10 @@
 
 # Generally speaking however, as little code as possible
 # should be run on import. Any initialization code should
-# be run on the first use of a module.
+# be run on the first use of a module. Otherwise, we
+# waste a lot of cycles on things that might not even be needed
+# depending on the client code's use. Especially bad is making
+# I/O requests to the disk or network on import.
+# We want things to import quickly!
 
 print("./__init__.py")
