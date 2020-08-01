@@ -6,3 +6,5 @@ Attention is given to the creation of custom modules.
 If you find a mistake (and there probably are some) or 
 something important missing (and there probably is) 
 feel free to make a PR.
+
+Read the inline comments for explanations of what is going on.
