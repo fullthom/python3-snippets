@@ -1,3 +1,6 @@
+# Prints "a.py" so we know when the file in this code is run.
+print("a.py")
+
 # Imports the file "b".
 # When "b" is imported, any code in "b" is run.
 import b
@@ -24,9 +27,6 @@ from b import B
 
 # Instantiates a B object
 bObj = B()
-
-# Prints "a.py" so we know when the file in this code is run.
-print("a.py")
 
 # Because we used __init__.py to declare this directory a module,
 # we can use this to import a too. The "." signifies that we

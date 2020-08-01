@@ -14,4 +14,5 @@
 # I/O requests to the disk or network on import.
 # We want things to import quickly!
 
+# Prints "./__init__.py" so we know when the file in this code is run.
 print("./__init__.py")
