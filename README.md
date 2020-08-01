@@ -11,3 +11,7 @@ something important missing (and there probably is)
 feel free to make a PR.
 
 Read the inline comments for explanations of what is going on.
+
+This is a brief overview. If you want a detailed explanation,
+I recommend finding another source, such as the official
+[python documentation](https://docs.python.org/3/tutorial/modules.html).
